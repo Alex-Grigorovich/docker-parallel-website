@@ -206,11 +206,13 @@ header .nav-item a:hover::after{
     border: 1px solid black;
 }
 
+
 .details-right-content{
-    background-image: url(../img/gif11.gif);
+    background-image: url(../img/icon_virtual.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 590px;
     color:#fff;
     text-align: left;
     vertical-align: middle;
@@ -226,7 +228,7 @@ header .nav-item a:hover::after{
 }
 
 .continue-left-content{
-    background-image: url(../img/gf2.gif);
+    background-image: url(../img/orig.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -270,6 +272,3 @@ footer{
     margin-top: 15px;
 }
 
-h1{
-   color: green; 
-}

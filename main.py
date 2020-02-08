@@ -13,5 +13,15 @@ def index():
 def roadmap():
     return render_template('roadmap.html')
 
+@app.route('/features')
+def features():
+    return render_template('features.html')
+
+@app.route('/ourMission')
+def ourMission():
+    return render_template('ourMission.html')
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)

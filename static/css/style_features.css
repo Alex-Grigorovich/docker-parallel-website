@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'CaptureitRUSBYLYAJKA';
+    src: url('../fonts/CaptureitRUSBYLYAJKA.woff') format('woff2'),
+        url('../fonts/CaptureitRUSBYLYAJKA.woffCaptureitRUSBYLYAJKA.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'LucidaConsole';
+    src: url('../fonts/LucidaConsole.woff2') format('woff2'),
+        url('../fonts/LucidaConsole.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header .nav-item{
+    text-transform: uppercase;
+    margin-left: 70px;
+    color: #fff;
+}
+
+header{
+    height: 60px;
+    background: linear-gradient(150deg, #ca1ce9, #2c165e);
+} 
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-family: 'CaptureitRUSBYLYAJKA';
+    background: none;
+}
+
+.collapse .nav-item .nav-link{
+    color: #fff;
+    font-family: 'LucidaConsole';
+    background: none;
+}
+
+
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+    transform: scale(1);
+    color: #fff;
+}
+
+
+
+.features-title{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'CenturyGothic';
+    text-align: center;
+   
+}
+
+.features-content{
+    font-family: 'LucidaConsole';
+    background: linear-gradient(150deg, #ca1ce9, #2c165e);
+    color: white;
+    border: 1px solid #000;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+.third-features{
+    margin-bottom: 5rem;
+}
+
+
+footer{
+    height: 150px;
+    background: linear-gradient(150deg, #e32dfb, #2c165e);
+    border-top:none;
+}
+
+.left-footer{
+    padding: 1rem;
+    color:#fff;
+    font-size:20px;
+    font-family: 'CaptureitRUSBYLYAJKA';
+}
+.right-footer{
+    padding: 1rem;
+    color:#fff;
+    font-family: 'LucidaConsole';
+}
+
+.github{
+    margin-top: 20px;
+}
+.social{
+    margin-top: 15px;
+}
