@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'CaptureitRUSBYLYAJKA';
+    src: url('../fonts/CaptureitRUSBYLYAJKA.woff') format('woff2'),
+        url('../fonts/CaptureitRUSBYLYAJKA.woffCaptureitRUSBYLYAJKA.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mont-ExtraLightDEMO';
+    src: url('../fonts/Mont-ExtraLightDEMO.woff2') format('woff2'),
+        url('../fonts/Mont-ExtraLightDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plateia-Bold';
+    src: url('../fonts/Plateia-Bold.woff2') format('woff2'),
+        url('../fonts/Plateia-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LucidaConsole';
+    src: url('../fonts/LucidaConsole.woff2') format('woff2'),
+        url('../fonts/LucidaConsole.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background: linear-gradient(150deg, #ca1ce9, #2c165e);
+}
+
+
+header .nav-item{
+    text-transform: uppercase;
+    margin-left: 50px;
+    color: #fff;
+}
+
+header{
+    height: 60px;
+    background: linear-gradient(150deg, #ca1ce9, #2c165e);
+} 
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-family: 'CaptureitRUSBYLYAJKA';
+}
+
+.collapse .nav-item .nav-link{
+    color: #fff;
+    font-family: 'LucidaConsole';
+}
+
+
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+    transform: scale(1);
+    color: #fff;
+}
+
+
+.main{
+    background-image: url(../img/bg-1_5-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+.main-local{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.main-local-content{
+    margin-top: 200px;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'LucidaConsole';
+}
+
+.main-local-content p{
+    text-align: center;
+    color:rgb(51, 255, 0);
+}
+
+.main-title{
+    font-family: 'CenturyGothic';
+}
+
+.btn{
+    margin-top: 25px;
+    padding: 10px 20px;
+}
+
+.advantage{
+    background: linear-gradient(45deg,#2c165e, #e32dfb);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top:none;
+    height: 500px; 
+}
+
+
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.slick-active{
+    outline: none;
+}
+
+.arrow{
+    top: 55%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 99;
+    width: 2rem;
+    height: 2rem;
+    background: none;
+}
+
+.prev{
+    left: 0;
+    background-size: 70%;
+}
+.next{
+    right: 0;
+}
+
+
+.advantage-card{
+    margin-top: 60px;
+    margin-left: 40px;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+   color: #fff;
+   font-family: 'LucidaConsole';
+}
+
+
+.awesome-icons{
+    margin-top: 50px;
+}
+
+.card img{
+    width: 221px;
+    height: 250px;
+    background:linear-gradient(45deg,#2c165e, #910067);;
+}
+
+.card-body h5{
+    color:#fff;
+}
+
+.card-body p{
+    color:#fff;
+}
+
+.details .row{
+    border-top:none ;
+}
+
+.details-left-content{
+    color:#fff;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'LucidaConsole';
+    border: 1px solid black;
+}
+
+.details-right-content{
+    background-image: url(../img/gif11.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-left: none;
+    border-bottom:none ;
+}
+
+.continue .row{
+    border-top:none ;
+}
+
+.continue-left-content{
+    background-image: url(../img/gf2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 517px;
+    border:1px solid black;
+    border-right: none;
+}
+
+.continue-right-content{
+    color:#fff;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'LucidaConsole';
+    border: 1px solid black;
+}
+
+footer{
+    height: 150px;
+    background: linear-gradient(150deg, #e32dfb, #2c165e);
+    border-top:none;
+}
+
+.left-footer{
+    padding: 1rem;
+    color:#fff;
+    font-size:20px;
+    font-family: 'CaptureitRUSBYLYAJKA';
+}
+.right-footer{
+    padding: 1rem;
+    color:#fff;
+    font-family: 'LucidaConsole';
+}
+
+.github{
+    margin-top: 20px;
+}
+.social{
+    margin-top: 15px;
+}
