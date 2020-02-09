@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'CaptureitRUSBYLYAJKA';
+    src: url('../fonts/CaptureitRUSBYLYAJKA.woff') format('woff2'),
+        url('../fonts/CaptureitRUSBYLYAJKA.woffCaptureitRUSBYLYAJKA.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'LucidaConsole';
+    src: url('../fonts/LucidaConsole.woff2') format('woff2'),
+        url('../fonts/LucidaConsole.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('../fonts/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background: linear-gradient(150deg, #ca1ce9, #2c165e);
+}
+
+p{
+   
+}
+
+header .nav-item{
+    text-transform: uppercase;
+    margin-left: 70px;
+    color: #fff;
+}
+
+header{
+    height: 60px;
+    background: linear-gradient(150deg, #ca1ce9, #2c165e);
+} 
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-family: 'CaptureitRUSBYLYAJKA';
+    background: none;
+}
+
+.collapse .nav-item .nav-link{
+    color: #fff;
+    font-family: 'LucidaConsole';
+    background: none;
+}
+
+
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+
+header .nav-item a:hover::after{
+    transform: scale(1);
+    color: #fff;
+}
+
+.mission-title{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: wheat;
+}
+
+.ImgII{
+    margin-top: 10px;
+    width: 1100px;
+    height: 700px;
+
+}
+
+
+.mission-content{
+    font-family: 'LucidaConsole';
+    font-size: 1.2rem;
+    color: white;
+}
+
+.our-mission{
+margin-top: 2.5rem;
+}
+
+.our-mission-content{
+    font-family: 'LucidaConsole';
+    font-size: 1.2rem;
+}
+
+.content-left{
+    border-right: 1px dashed #fff;
+    color:rgb(51, 255, 0);
+}
+
+.content-right{
+    color:rgb(51, 255, 0);
+}
+
+
+
+.ImgIII{
+    margin-top: 10px;
+    width: 1100px;
+    height: 700px;
+    background: white;
+    border: 2px solid #000;
+}
+
+.our-countries{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    }
+
+.countries{
+    font-family: 'LucidaConsole';
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+footer{
+    height: 150px;
+    background: linear-gradient(150deg, #e32dfb, #2c165e);
+    border-top:none;
+}
+
+.left-footer{
+    padding: 1rem;
+    color:#fff;
+    font-size:20px;
+    font-family: 'CaptureitRUSBYLYAJKA';
+}
+.right-footer{
+    padding: 1rem;
+    color:#fff;
+    font-family: 'LucidaConsole';
+}
+
+.github{
+    margin-top: 20px;
+}
+.social{
+    margin-top: 15px;
+}
